@@ -2,22 +2,14 @@
 <html lang="ja">
 <head>
   <meta charset="UTF-8">
-  <title>ラテン語音声つき単語帳</title>
+  <title>ラテン語音声つき単語帳（MP3方式）</title>
   <style>
     body {
       font-family: sans-serif;
       padding: 20px;
     }
     .entry {
-      margin-bottom: 1.5em;
-    }
-    a.button {
-      background-color: #007BFF;
-      color: white;
-      padding: 5px 10px;
-      text-decoration: none;
-      border-radius: 5px;
-      margin-left: 10px;
+      margin-bottom: 2em;
     }
   </style>
 </head>
@@ -27,20 +19,27 @@
   <div class="entry">
     <strong>Papa</strong>（パーパ）<br>
     意味：教皇<br>
-    <a class="button" href="https://translate.google.com/?sl=la&tl=ja&text=Papa&op=translate" target="_blank">🔊 発音を聞く</a>
+    <audio controls>
+      <source src="papa.mp3" type="audio/mpeg">
+      お使いのブラウザでは audio 要素がサポートされていません。
+    </audio>
   </div>
 
   <div class="entry">
     <strong>Ecclēsia</strong>（エククレーシア）<br>
     意味：教会<br>
-    <a class="button" href="https://translate.google.com/?sl=la&tl=ja&text=Ecclesia&op=translate" target="_blank">🔊 発音を聞く</a>
+    <audio controls>
+      <source src="ecclesia.mp3" type="audio/mpeg">
+    </audio>
   </div>
 
   <div class="entry">
     <strong>Papa in Ecclēsiā orat.</strong><br>
     パーパ　イン　エククレーシアー　オラト<br>
     意味：教皇は教会の中で祈る<br>
-    <a class="button" href="https://translate.google.com/?sl=la&tl=ja&text=Papa%20in%20Ecclesia%20orat.&op=translate" target="_blank">🔊 発音を聞く</a>
+    <audio controls>
+      <source src="papa_in_ecclesia_orat.mp3" type="audio/mpeg">
+    </audio>
   </div>
 
 </body>
