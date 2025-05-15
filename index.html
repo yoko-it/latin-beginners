@@ -11,8 +11,12 @@
     .entry {
       margin-bottom: 1.5em;
     }
-    button {
+    a.button {
+      background-color: #007BFF;
+      color: white;
       padding: 5px 10px;
+      text-decoration: none;
+      border-radius: 5px;
       margin-left: 10px;
     }
   </style>
@@ -23,26 +27,21 @@
   <div class="entry">
     <strong>Papa</strong>（パーパ）<br>
     意味：教皇<br>
-    <button onclick="playAudio('https://translate.google.com/translate_tts?ie=UTF-8&tl=la&q=Papa&client=tw-ob')">🔊 発音を聞く</button>
+    <a class="button" href="https://translate.google.com/?sl=la&tl=ja&text=Papa&op=translate" target="_blank">🔊 発音を聞く</a>
   </div>
 
   <div class="entry">
     <strong>Ecclēsia</strong>（エククレーシア）<br>
     意味：教会<br>
-    <button onclick="playAudio('https://translate.google.com/translate_tts?ie=UTF-8&tl=la&q=Ecclesia&client=tw-ob')">🔊 発音を聞く</button>
+    <a class="button" href="https://translate.google.com/?sl=la&tl=ja&text=Ecclesia&op=translate" target="_blank">🔊 発音を聞く</a>
   </div>
 
   <div class="entry">
     <strong>Papa in Ecclēsiā orat.</strong><br>
     パーパ　イン　エククレーシアー　オラト<br>
     意味：教皇は教会の中で祈る<br>
-    <button onclick="playAudio('https://translate.google.com/translate_tts?ie=UTF-8&tl=la&q=Papa%20in%20Ecclesia%20orat.&client=tw-ob')">🔊 発音を聞く</button>
+    <a class="button" href="https://translate.google.com/?sl=la&tl=ja&text=Papa%20in%20Ecclesia%20orat.&op=translate" target="_blank">🔊 発音を聞く</a>
   </div>
 
-  <script>
-    function playAudio(url) {
-      new Audio(url).play();
-    }
-  </script>
 </body>
 </html>
