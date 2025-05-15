@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+  <meta charset="UTF-8">
+  <title>ラテン語音声つき単語帳</title>
+  <style>
+    body {
+      font-family: sans-serif;
+      padding: 20px;
+    }
+    .entry {
+      margin-bottom: 1.5em;
+    }
+    button {
+      padding: 5px 10px;
+      margin-left: 10px;
+    }
+  </style>
+</head>
+<body>
+  <h1>📘 ラテン語音声つき単語と例文</h1>
+
+  <div class="entry">
+    <strong>Papa</strong>（パーパ）<br>
+    意味：教皇<br>
+    <button onclick="playAudio('https://translate.google.com/translate_tts?ie=UTF-8&tl=la&q=Papa&client=tw-ob')">🔊 発音を聞く</button>
+  </div>
+
+  <div class="entry">
+    <strong>Ecclēsia</strong>（エククレーシア）<br>
+    意味：教会<br>
+    <button onclick="playAudio('https://translate.google.com/translate_tts?ie=UTF-8&tl=la&q=Ecclesia&client=tw-ob')">🔊 発音を聞く</button>
+  </div>
+
+  <div class="entry">
+    <strong>Papa in Ecclēsiā orat.</strong><br>
+    パーパ　イン　エククレーシアー　オラト<br>
+    意味：教皇は教会の中で祈る<br>
+    <button onclick="playAudio('https://translate.google.com/translate_tts?ie=UTF-8&tl=la&q=Papa%20in%20Ecclesia%20orat.&client=tw-ob')">🔊 発音を聞く</button>
+  </div>
+
+  <script>
+    function playAudio(url) {
+      new Audio(url).play();
+    }
+  </script>
+</body>
+</html>
